@@ -9,7 +9,7 @@ using namespace std;
 
 unordered_map<char, vector<char>> ntwrk;
 
-string breadthFirstSearch(char node, char trgt) {
+string BFSHist(char node, char trgt) {
     queue<string> routeQueue;
     set<char> visited;
 
@@ -49,7 +49,7 @@ int main() {
     char origin = 'S';
     char dstn = 'G';
 
-    string shortestPath = breadthFirstSearch(origin, dstn);
+    string shortestPath = BFSHist(origin, dstn);
 
     if (!shortestPath.empty()) {
         cout << "Shortest path: " << shortestPath << "\n";
@@ -59,3 +59,4 @@ int main() {
 
     return 0;
 }
+
