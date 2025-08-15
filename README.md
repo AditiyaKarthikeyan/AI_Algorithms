@@ -1,1 +1,1 @@
-# AI_Algoritms
+# AI_Algorithms
