@@ -43,8 +43,9 @@ int main() {
             cout << route << '\n';
         }
     } else {
-        cout << "No route exists.\n";
+        cout << "No route available.\n";
     }
 
     return 0;
 }
+
