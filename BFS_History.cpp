@@ -49,14 +49,15 @@ int main() {
     char origin = 'S';
     char dstn = 'G';
 
-    string shortestPath = BFSHist(origin, dstn);
+    string route = BFSHist(origin, dstn);
 
-    if (!shortestPath.empty()) {
-        cout << "Shortest path: " << shortestPath << "\n";
+    if (!route.empty()) {
+        cout << "Route located: " << route << "\n";
     } else {
         cout << "No route available.\n";
     }
 
     return 0;
 }
+
 
